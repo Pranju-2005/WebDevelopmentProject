@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="header">
+<div class="container">
+    <nav>
+        <img src="images/logo1.png" class="logo" >
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+    </nav>
+    <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi,I'm <span>Pranjal </span><br> Badgujar From India</h1>
+    </div>
+</div>
+<!--------------about---------------->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="About-col-1">
+                <img src="images/img.png" width="350px" height="500px" >
+            </div>
+            <div class="About-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A web developer is a programmer who develops World Wide Web applications using a client–server model.<br>
+                    They are responsible for the design and construction of websites, ensuring that sites meet user 
+                    expectations by ensuring they look good,<br> run smoothly and offer easy access points with no loading issues between pages or error messages</p>
+            
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/Ux</span><br>Designing Web App Interface</li>
+                            <li><span>Web Development</span><br> Web App Development</li>
+                            <li><span>App Development</span><br>Building Android Apps </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2025 - Current</span><br>Web Development</li>
+                            <li><span>2020-2024</span><br>Full Stack Java</li>
+                            <li><span>2017-2019</span><br>Industrial Training at Sumago Infotech Nashik </li>
+                            <li><span>2014-2016</span><br>Python Learning</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2020</span><br>Diploma in CO from Government Polytechnic ,Jalgaon<br></li>
+                            <li><span>2024</span><br> B.E in CO From SSBT COET,Jalgaon</li>
+                            <li><span>2025</span><br>Internship at Codesoft </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+ 
+<!------------services---------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+              
+                <h2>Web Design</h2>
+                <p>is the field of Designing Website interfaces. It deals with the looks part of the website rather than the coding part. Designing how the interface will look is called User Interface(UI) Design and Designing the flow of the user on the website, how the user will navigate through the website, etc are a part of User Experience(UX) Design.</p>
+                     <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>UI/UX Design</h2>
+                <p>In digital design, user interface (UI) refers to the interactivity, look, and feel of a product screen or web page, while user experience (UX) covers a user’s overall experience with the product or website. Read on to find out what it takes to design engaging UI, and create a memorable UX.</p>
+                     <a href="#">Learn more</a>
+            </div>
+            <div>
+               
+                <h2>App Design</h2>
+                <p>If users can’t find what they’re looking for in your app quickly and intuitively, it’s likely they will abandon it and move on to something else. Worse, they will give it a nice shout-out on Twitter (with multiple screenshots showing why your app su*ks), and never come back!
+
+                 UX designers avoid this nightmare by carefully structuring and organizing the information.</p>
+                     <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------Portfolio------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/m1.png" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p> The app connects you the talented people around the world.
+                        Download it from play store</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/m2.png" >
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you the talented people around the world.
+                        Download it from play store</p>
+                </div>
+            </div>
+            <div class="work">
+               <img src="images/m4.png" >
+               <div class="layer">
+                <h3>Online shopping App</h3>
+                <p>The app connects you the talented people around the world.
+                        Download it from play store</p>
+               </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------contact----------->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>Email Id: contact@example.com</p>
+                <p>Cont No: 0123456789</p>
+                <a href="images/My Resume (2).pdf" download class="btn btn2">Download CV</a>
+            </div>
+        
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+   </script>
+
+
+
+</body>
+</html>
