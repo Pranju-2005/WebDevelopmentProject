@@ -1,10 +1,5 @@
 # PersonalPortfolio
-🚀 CodeSoft Internship - Level 1 | Task 3 Completed!
-🧮 Created a clean and functional Calculator using HTML, CSS, and JavaScript.
-This task helped me improve my understanding of DOM manipulation, styling, and basic JavaScript logic. The learning journey continues! 🌱
-
-🔧 Tech Stack: HTML | CSS | JavaScript
-#CodeSoft #WebDevelopment #Internship #Task3Done
+Done with Task 1: Level up! Completed Task 1 of Level 1 in my #WebDevelopment internship at #CodSoft! Ready to take on more challenges! #InternshipLife #Portfolio #WebDev"!
 
 Description:
 1)Header Section:Displays your name, profession ("Web Developer"), and a navigation menu.
