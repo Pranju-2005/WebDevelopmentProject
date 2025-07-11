@@ -1,4 +1,4 @@
-# WebDevelopmentProject
+# PersonalPortfolio
 🚀 CodeSoft Internship - Level 1 | Task 3 Completed!
 🧮 Created a clean and functional Calculator using HTML, CSS, and JavaScript.
 This task helped me improve my understanding of DOM manipulation, styling, and basic JavaScript logic. The learning journey continues! 🌱
